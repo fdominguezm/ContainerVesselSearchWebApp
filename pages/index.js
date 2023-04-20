@@ -33,13 +33,6 @@ export default function Home() {
             </Typography>
           </Box>
           
-          {/* <Box textAlign='center' sx={{maxWidth: 900}}>
-          <Typography className={styles.text}>
-            Here you can search for any container number or vessel name and you will find every document that includes it.  
-            You can use the date filters to search documents issued between the selected dates.
-            </Typography>
-          </Box> */}
-          
           <SearchResults/>
                           
         </div>
