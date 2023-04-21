@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import styles from '@/styles/Home.module.css'
+import Image from 'next/image';
 
 
 const Navbar = () => {
@@ -22,7 +23,7 @@ const Navbar = () => {
                 >
             <Container maxWidth="xl" >
                 <Toolbar disableGutters >
-                    <img src="../logo.jpg" className={styles.img} height="80" width="80"/>
+                    <Image src="/logo.jpg" className={styles.img} height="80" width="80"/>
                     <Typography className={styles.title}>
                     Seald Sweet International
                     </Typography>

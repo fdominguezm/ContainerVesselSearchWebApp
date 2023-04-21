@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Card, CardContent, CardActions,Container, Grid, TextField, makeStyles } from '@mui/material';
+import { Button, Card, CardContent, CardActions,Container, Grid, TextField, makeStyles, responsiveFontSizes } from '@mui/material';
 import styles from '@/styles/Home.module.css';
 import Typography from '@mui/material/Typography';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
@@ -71,7 +71,7 @@ function SearchResults() {
         <Container>
           <Grid container spacing={3} className="grid-container">
             {results.map((result) => (
-              <Grid item xs={12} sm={6} md={3}>
+              <Grid key={result.ReportId} item xs={12} sm={6} md={3}>
                 <Card  className={styles.secondaryColor} style={{alignContent: 'center', height:200,}}>
                   <Box height="70%">
                     <CardContent >
