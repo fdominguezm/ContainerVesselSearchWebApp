@@ -4,8 +4,7 @@ import { Button, Card, CardContent, CardActions,Container, Grid, TextField, make
 import Typography from '@mui/material/Typography';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import Box from '@mui/material/Box';
-import styles from 'C:\\Users\\fdominguezmac\\Documents\\Reportal Software Stuff\\WEB-APP\\material-ui-next\\styles\\SearchResults.module.css';
-
+import styles from '@/styles/SearchResults.module.css'
 
 
 

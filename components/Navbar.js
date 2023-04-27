@@ -3,7 +3,7 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import styles from 'C:\\Users\\fdominguezmac\\Documents\\Reportal Software Stuff\\WEB-APP\\material-ui-next\\styles\\Navbar.module.css'
+import styles from '@/styles/Navbar.module.css'
 import Image from 'next/image';
 
 
