@@ -7,7 +7,6 @@ import Box from '@mui/material/Box';
 import SearchResults from '../components/SearchResults';
 
 
-
 export default function Home() {
 
 

@@ -1,0 +1,14 @@
+.navBar {
+    background-color: #ed6c02  ;
+    position: fixed;
+  }
+  
+  .secondaryColor {
+    background-color: #ff9800  ;
+  }
+
+  .title{
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: xx-large;
+  }
